@@ -1,26 +1,30 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
-.container{
+.menu-container{
+    background-color: rgb(40, 40, 40);
+    padding: 20px;
+    color: whitesmoke;
+    list-style: none;
     display: flex;
-    justify-content: center;
-    /* justify-content: space-between; */
     align-items: center;
-    /* flex-direction: row-reverse; */
+    justify-content: space-around;
 }
-.box-1{
-    padding: 20px;
-    background-color: blueviolet;
-    width: 150px;
+.logo-image{
+    width: 120px;
+    
 }
-.box-2{
-    background-color: greenyellow;
-    padding: 20px;
-    width: 150px;
+.menus{
+    display: flex;
+    
 }
-.box-3{
-    background-color: rgb(233, 152, 0);
-    padding: 20px;
-    width: 150px;
+.item{
+    margin-right:20px;
+    padding: 10px;
+    font-size: 18px;
+}
+.item:hover{
+    color: chartreuse;
+    cursor: pointer;
 }
