@@ -28,3 +28,38 @@
     color: chartreuse;
     cursor: pointer;
 }
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(11, 11, 11),rgb(35, 35, 35));
+    color: white;
+    
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.desc{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: rgb(41, 40, 40);
+    /* border-radius: 15px; */
+    margin-top: 15px;
+    font-size: 20px;
+    color: azure;
+}
+.btn:hover{
+    background-color: rgb(255, 68, 0);
+    color: rgb(255, 255, 255);
+    transition: .4s;
+    cursor: pointer;
+}
